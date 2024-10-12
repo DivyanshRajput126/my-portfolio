@@ -152,7 +152,7 @@ const Contact = () => {
         })
     }
     return (
-        <Container id="#contact">
+        <Container id="contact">
             <Wrapper>
                 <Title>Contact</Title>
                 <Description
