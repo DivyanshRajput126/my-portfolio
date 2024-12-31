@@ -3,16 +3,15 @@ export const Bio = {
   roles: [
     "Full Stack Developer",
     "Android Developer",
-    "Machine Learning Engineer",
-    "AI Engineer",
+    "AI/ML Engineer",
     "Data Scientist",
-    "UI/UX Designer",
+    "Data Analyst"
   ],
   description:
     "I am a highly motivated fourth-year Computer Engineering student with a strong passion for Artificial Intelligence, Machine Learning, Data Science and Software Development. Throughout my academic journey, I have developed a solid foundation in computer science principles, with a particular focus on AI- driven technologies.",
   github: "https://github.com/DivyanshRajput126",
   resume:
-    "https://drive.google.com/file/d/1zhG54rGpelKHyFNSz3LRcFWLtsUrQRtK/view?usp=drive_link",
+    "https://drive.google.com/file/d/1zhG54rGpelKHyFNSz3LRcFWLtsUrQRtK/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/divyansh-rajput-49198524a/",
   twitter: "https://x.com/Divyanshr126",
 };
@@ -79,11 +78,6 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
-        name: "Flask",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
-      },
-      {
         name: "Django",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFFyY16N5NRhzoG24RqB7x8Ok2t8Bdgs-tuMsOBXS2Q&s",
@@ -107,16 +101,6 @@ export const skills = [
   {
     title: "DevOps",
     skills: [
-      {
-        name: "AWS",
-        image:
-          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-      },
-      {
-        name: "Google Cloud",
-        image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-      },
       {
         name: "Docker",
         image:
@@ -183,7 +167,7 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/2560px-Google_Colaboratory_SVG_Logo.svg.png",
       },
       {
-        name: "Sk Learn Kit",
+        name: "Scikit-Learn",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
       },
@@ -250,11 +234,6 @@ export const skills = [
         name: "Photoshop",
         image:
           "https://w7.pngwing.com/pngs/1003/956/png-transparent-adobe-photoshop-cs6-hd-logo-thumbnail.png",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
       },
       {
         name:"Thunder Client",
@@ -357,11 +336,11 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://pbs.twimg.com/profile_images/1156115998497366016/r1jTTUV2_400x400.jpg",
-    school: "Sigma Institute of Engineering (Gujarat Technological University), Vadodara",
+    img: "https://student.gtu.ac.in/assets/img/fnewgtulogo.png",
+    school: "Gujarat Technological University",
     date: "August 2021 - Sep 2025",
     grade: "8.36 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer  Engineering at Sigma Institute of Engineering, Vadodara. I have completed 6 semesters and have a CGPA of 8.39. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, Artifical Intelligence, Web Programming, Mobile Application Development among others.",
+    desc: "I am currently pursuing a Bachelor's degree in Computer  Engineering from Gujarat Technological University. I have completed 7 semesters and have a CGPA of 8.36. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, Artifical Intelligence, Web Programming, Mobile Application Development among others.",
     degree: "Bachelor of Engineering - BE, Computer Engineering",
   },
   {
@@ -401,7 +380,7 @@ export const projects = [
       "SkLearn",
       "Python",
     ],
-    category: "machine learning",
+    category: "artificial intelligence",
     github: "https://github.com/DivyanshRajput126/Movie-Recommendation-System",
     webapp: "https://movie-recommendation-system-divyansh.streamlit.app/",
   },
@@ -421,7 +400,7 @@ export const projects = [
       "Numpy",
       "Matplotlib"
     ],
-    category: "machine learning",
+    category: "artificial intelligence",
     github: "https://github.com/DivyanshRajput126/House-Price-Prediction",
     webapp: "https://house-price-prediction-1.streamlit.app/",
   },
@@ -433,7 +412,7 @@ export const projects = [
       "Developed a used car price prediction model utilizing machine learning algorithms like Linear Regression and Random Forest. Created an interactive Streamlit app for instant price predictions based on car features. The project aims to aid informed buying and selling decisions in the market.",
     image:"https://media.licdn.com/dms/image/v2/D4D2DAQH-3JsW4UhwLw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728757848165?e=1729364400&v=beta&t=SxHMXeYb6TxtJfVowgIKTo9FUISY71xOwz72V3VkkUw",
     tags: ["Machine Learning", "SKLearn", "Pandas", "Python", "Matplotlib"],
-    category: "machine learning",
+    category: "artificial intelligence",
     github: "https://github.com/rishavchanda/Podstream",
     webapp:"#"
   },
@@ -459,44 +438,31 @@ export const projects = [
     webapp: "https://dwarkeshjewellers.com",
   },
   {
-    id: 2,
-    title: "Irza Cab Service",
-    date: "Jan 2023 - Mar 2023",
+    id: 3,
+    title: "Job- Cold Email Generation",
+    date: "Dec 2024 - Dec 2024",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "Developed a job email generation system leveraging the LLaMA language model, LangChain for seamless integration, and Streamlit for an interactive front-end interface. The system generates personalized job application emails based on user input, streamlining the application process.",
     image:
-      "https://github.com/DivyanshRajput126/UsedCarPricePrediction/blob/main/Screenshot%20(17).png",
-    tags: ["HTML", "CSS", "Javascript", "PHP"],
-    category: "web app",
-    github: "https://irzacabservice.com/",
+      "",
+    tags: ["Deep Learning", "NLP", "Llama", "Langchain","AI"],
+    category: "artificial intelligence",
+    github: "https://github.com/DivyanshRajput126/Job-Email-Generator",
     webapp: "#",
   },
-  // {
-  //   id: 3,
-  //   title: "",
-  //   date: "Dec 2021 - Apr 2022",
-  //   description:
-  //     "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-  //   image:
-  //     "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-  //   tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Buckoid-Android-App",
-  //   webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  // },
-  // {
-  //   id: 10,
-  //   title: "Job Finding App",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-  //   tags: ["React Native", "JavaScript", "Axios"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Job-finder-App",
-  //   webapp: "https://github.com/rishavchanda/Job-finder-App",
-  // },
+  {
+    id: 10,
+    title: "Potato Leaf Disease Detection",
+    date: "Dec 2024 - DEc 2024",
+    description:
+      "Developed a potato leaf disease prediction system using deep learning techniques to accurately identify and classify diseases based on images of potato leaves. The deep learning model was trained on a large dataset of labeled images, enabling high accuracy in disease detection. The system was hosted using FastAPI, providing a fast and efficient backend to process user inputs and return predictions. The front-end interface was built with ReactJS",
+    image:
+      "",
+    tags: ["Reactjs", "Fast Api", "Deep Learning","CNN"],
+    category: "artificial intelligence",
+    github: "https://github.com/DivyanshRajput126/potato-backend",
+    webapp: "https://potatodisease-deeplearning.netlify.app/",
+  },
   // {
   //   id: 4,
   //   title: "Whatsapp Clone",

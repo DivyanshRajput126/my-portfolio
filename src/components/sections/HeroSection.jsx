@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from 'typewriter-effect';
 import PortfolioImg from '../../images/PortfolioImg.jpg';
-import HeroBgAnimation from '../HeroBgAnimation'
 import {Tilt} from 'react-tilt';
 import {motion} from 'framer-motion';
 import {
@@ -216,7 +215,6 @@ const HeroSection = () => {
             <HeroContainer>
                 <HeroBG>
                     <StartCanvas/>
-                    <HeroBgAnimation/>
                 </HeroBG>
                 <motion.div {...headContainerAnimation}>
                     <HeroInnerContainer>
