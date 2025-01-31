@@ -4,6 +4,9 @@ This portfolio is a dynamic and visually engaging platform built using ReactJS a
 # Framework Used:
 ReactJS
 
+# Hosted on:
+Netlify
+
 # Key Features:
 **Interactive 3D Visuals**: Captivating 3D models and animations that demonstrate creativity and technical expertise.<br>
 **Responsive Design**: Optimized for desktops, tablets, and mobile devices for a consistent viewing experience.<br>
