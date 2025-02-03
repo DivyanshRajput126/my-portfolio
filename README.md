@@ -1,5 +1,5 @@
 # Interactive Developer Portfolio
-This portfolio is a dynamic and visually engaging platform built using ReactJS and Three.js to showcase skills, projects, and achievements. It leverages ReactJS for efficient state management and component-based design, ensuring a seamless and responsive user experience. Three.js brings the portfolio to life with interactive 3D graphics, animations, and effects, adding a modern and creative touch.
+This portfolio is a dynamic and visually engaging platform built using ReactJS and Three.js to showcase skills, projects, and achievements. It leverages ReactJS for efficient state management and component-based design, ensuring a seamless and responsive user experience. Three.js brings the portfolio to life with interactive 3D graphics, animations, and effects, adding a modern and creative touch. In this website i have used json to provide data as api.
 
 # Framework Used:
 ReactJS
