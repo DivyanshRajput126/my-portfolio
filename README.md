@@ -16,5 +16,3 @@ Netlify
 
 # Portfolio Link:
 Portfolio - <a href="https://divyansh-portfolio126.netlify.app/" target=_blank>https://divyansh-portfolio126.netlify.app/</a>
-
-tweaked file a bit to check jenkins automation
