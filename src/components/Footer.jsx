@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Bio } from '../data/constants';
-import { GitHub,LinkedIn,X } from '@mui/icons-material';
+import { GitHub,LinkedIn,X,Instagram,Email,Phone,WhatsApp } from '@mui/icons-material';
 
 const FooterContainer = styled.div`
 width: 100%;
@@ -89,14 +89,26 @@ const Footer = () => {
                     <NavLink href="#contact">Contact</NavLink>
                 </Nav>
                 <SocialMediaIcons>
-                    <SocialMediaIcon href={Bio.linkedin} target='display'>
+                    <SocialMediaIcon href={Bio.linkedin} target='_blank'>
                         <LinkedIn/>
                     </SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.twitter} target='display'>
+                    <SocialMediaIcon href={Bio.twitter} target='_blank'>
                         <X/>
                     </SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.github} target='display'>
+                    <SocialMediaIcon href={Bio.github} target='_blank'>
                         <GitHub/>
+                    </SocialMediaIcon>
+                    <SocialMediaIcon href={Bio.instagram} target='_blank'>
+                        <Instagram/>
+                    </SocialMediaIcon>
+                    <SocialMediaIcon href={Bio.email} target='_blank'>
+                        <Email/>
+                    </SocialMediaIcon>
+                    <SocialMediaIcon href={Bio.phone} target='_blank'>
+                        <Phone/>
+                    </SocialMediaIcon>
+                    <SocialMediaIcon href={Bio.whatsapp} target='_blank'>
+                        <WhatsApp/>
                     </SocialMediaIcon>
                 </SocialMediaIcons>
                 <Copyright>&copy;{new Date().getFullYear()} Divyansh Rajput. All rights reserved.</Copyright>

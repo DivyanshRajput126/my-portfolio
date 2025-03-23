@@ -95,10 +95,10 @@ font-weight: 600;
 text-align: center;
 `;
 
-const ProjectCard = ({project}) => {
+const ProjectCard = ({ project }) => {
     return (
         <Card>
-            <Image src={project.image} loading='lazy'/>
+            <Image src={project.image} loading='lazy' />
             <Tags></Tags>
             <Details>
                 <Title>{project.title}</Title>
@@ -106,9 +106,9 @@ const ProjectCard = ({project}) => {
                 <Description>{project.description}</Description>
             </Details>
             <Members>
-                {project?.memeber?.map((member)=>(<Avatar src={member.img} loading='lazy'/>))}
+                {project?.memeber?.map((member) => (<Avatar src={member.img} loading='lazy' />))}
             </Members>
-            <Button href={project.github} target="_blank">View Code</Button>
+            <Button href={project.github} target="_blank">View</Button>
         </Card>
     )
 }

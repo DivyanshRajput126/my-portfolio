@@ -126,27 +126,18 @@ const Contact = () => {
         setForm({...form,message:event.target.value});
     }
 
-    const templateParams = {
-        from_name:form.name,
-        from_email:form.email,
-        from_phone:form.phone,
-        subject:form.subject,
-        message:form.message
-    }
-
     const handleSubmit = (e) =>{
         e.preventDefault();
         console.log("name:",form.name,"email:",form.email,"phone:",form.phone,"subject:",form.subject,"message:",form.message);
         setForm({name:'',email:'',phone:'',subject:'',message:''})
         emailjs.sendForm(
-            "service_0dpwg7t",
-            "template_lc7e6bd",
-            templateParams,
+            "service_eb7qywr",
+            "template_1i9yzqr",
+            e.target,
             "-zxZG6sXb4Dqw97Qa"
         ).then(
             (result)=>{
             alert("Message Sent",result);
-            form.current.result();
         },(error)=>{
             alert(error);
         })

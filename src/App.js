@@ -1,15 +1,19 @@
 import styled, { ThemeProvider } from 'styled-components';
 import {darkTheme} from './utils/Themes';
-import Navbar from './components/Navbar';
 import { BrowserRouter } from 'react-router-dom';
-import HeroSection from './components/sections/HeroSection';
-import Skills from './components/sections/Skills';
-import Experience from './components/sections/Experience';
-import Education from './components/sections/Education';
-import StartCanvas from './components/canvas/Stars';
-import Projects from './components/sections/Projects';
-import Contact from './components/sections/Contact';
-import Footer from './components/Footer';
+import React from 'react';
+import { Suspense } from 'react';
+import PreLoader from './components/Preloader';
+
+
+const HeroSection = React.lazy(() => import ('./components/sections/HeroSection'));
+const Experience = React.lazy(() => import ('./components/sections/Experience'));
+const Skills = React.lazy(() => import ('./components/sections/Skills'));
+const Education = React.lazy(() => import ('./components/sections/Education'));
+const Projects = React.lazy(()=> import('./components/sections/Projects'));
+const Contact = React.lazy(()=> import('./components/sections/Contact'));
+const Footer = React.lazy(()=> import('./components/Footer'));
+const Navbar = React.lazy(()=>import('./components/Navbar'));
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -33,26 +37,42 @@ const Wrapper = styled.div`
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
-
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
+    <PreLoader/>
       <BrowserRouter>
+      <Suspense fallback={<div>Loading...</div>}>
         <Navbar/>
+        </Suspense>
         <Body>
-          <StartCanvas/>
+        {/* <Suspense fallback={<div>Loading...</div>}> */}
+          {/* <StartCanvas/> */}
+          {/* </Suspense> */}
           <div>
+          <Suspense fallback={<div>Loading...</div>}>
             <HeroSection/>
+          </Suspense>
             <Wrapper>
-              <Experience/>
+            <Suspense fallback={<div>Loading...</div>}>
+            <Experience/>
+            </Suspense>
+            <Suspense fallback={<div>Loading...</div>}>
               <Skills/>
+            </Suspense>
             </Wrapper>
             <Wrapper>
+            <Suspense fallback={<div>Loading...</div>}>
               <Education/>
+              </Suspense>
             </Wrapper>
             <Wrapper>
+            <Suspense fallback={<div>Loading...</div>}>
               <Projects/>
+              </Suspense>
+              <Suspense fallback={<div>Loading...</div>}>
               <Contact/>
+              </Suspense>
             </Wrapper>
             <Footer/>
           </div>
