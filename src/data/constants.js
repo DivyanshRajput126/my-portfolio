@@ -57,7 +57,7 @@ import python from '../images/python.png';
 import cpp from '../images/cpp.png';
 import c from '../images/c.png';
 import dart from '../images/dart.png';
-import rust from '../images/rust.png';
+import ResearchPaper from '../images/ResearchPaper.png';
 import coldmail from '../images/cold-mail.png';
 import movie from '../images/movie.png';
 import house from '../images/house.png';
@@ -81,7 +81,7 @@ export const Bio = {
     "Passionate AI Engineer with expertise in Generative AI, NLP, and Deep Learning. Skilled in fine-tuning large language models (LLMs), optimizing transformer architectures, and deploying AI-driven applications. Career goal: To drive innovation in GenAI by developing efficient, scalable, and human-aligned AI solutions.",
   github: "https://github.com/DivyanshRajput126",
   resume:
-    "https://drive.google.com/file/d/1zhG54rGpelKHyFNSz3LRcFWLtsUrQRtK/view?usp=sharing",
+    "https://drive.google.com/file/d/1qA9x7SjhbYXWm58d0n5fFL8AIHoJqyde/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/divyansh-rajput-49198524a/",
   twitter: "https://x.com/Divyanshr126",
   instagram: "https://www.instagram.com/divyanshrajput_12_6/",
@@ -340,10 +340,10 @@ export const skills = [
         name: "Dart",
         image: dart
       },
-      {
-        name: "RUST",
-        image: rust
-      }
+      // {
+      //   name: "RUST",
+      //   image: rust
+      // }
     ],
   },
 ];
@@ -586,20 +586,20 @@ export const projects = [
   },
   {
     id: 7,
-    title: "Twitter Sentiment Analysis",
+    title: "Sentiment Analysis using Transformers Vs. LLM",
     date: "Mar 2025",
     description:
       "This project implements Twitter Sentiment Analysis using a **BERT (bert-base-uncased) model trained ** with PyTorch. The model classifies tweets into positive, negative, and neutral sentiments.",
     image: twitter,
     tags: ["React Js", "API", "Axios", "Node JS"],
     category: "artificial intelligence",
-    github: "https://github.com/DivyanshRajput126/twitter-sentiment-bert",
+    github: "https://github.com/DivyanshRajput126/sentiment-analysis-using-transformers-vs-llm",
     webapp: "#",
   },
   {
     id: 8,
     title: "Bharuch Associates",
-    date: "Sept 2023 - Oct 2023",
+    date: "Apr 2025",
     description:
       "Developed a woocommerce website for a client who wanted to sell his/her medical products online.",
     image: bharucha,
@@ -607,5 +607,17 @@ export const projects = [
     category: "web app",
     github: "https://bharuchaassociates.org/",
     webapp: "https://bharuchaassociates.org/",
+  },
+  {
+    id: 9,
+    title: "Fraud Detection - A Hybrid ML Approach",
+    date: "Sept 2023 - Oct 2023",
+    description:
+      "Woked on a research paper on differnet fraud detection techniques using mix of ML and DL models.",
+    image: ResearchPaper,
+    tags: ["Neural Networks", "ML", "Python", "SKLearn", "XGBoost", "Decision Tree", "Random Forest"],
+    category: "research paper",
+    github: "https://www.ijsrcseit.com/index.php/home/article/view/CSEIT25112825",
+    webapp: "https://www.ijsrcseit.com/index.php/home/article/view/CSEIT25112825",
   }
 ];

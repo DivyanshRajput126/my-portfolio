@@ -102,6 +102,7 @@ const Projects = () => {
                     <Divider/>
                     <ToggleButton active={toggle==="web app"} onClick={()=>setToggle("web app")}>Web App's</ToggleButton>
                     <ToggleButton active={toggle==="artificial intelligence"} onClick={()=>setToggle("artificial intelligence")}>Artificial Intelligence</ToggleButton>
+                    <ToggleButton active={toggle==="research paper"} onClick={()=>setToggle("research paper")}>Research Paper</ToggleButton>
                 </ToggleButtonGroup>
                 <CardContainer>
                     {toggle==="all" && projects.map((project)=>
