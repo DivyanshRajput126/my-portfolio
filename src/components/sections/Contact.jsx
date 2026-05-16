@@ -154,11 +154,11 @@ const Contact = () => {
                 </Description>
                 <ContactForm onSubmit={handleSubmit}>
                     <ContactTitle>Email Me 🚀</ContactTitle>
-                    <ContactInput placeholder="Enter your Email" type="email" name="email" value={form.email} onChange={onEmailChange} required/>
-                    <ContactInput placeholder='Enter your Name' type='text' name='name' value={form.name} onChange={onNameChange} required/>
-                    <ContactInput placeholder='Enter your Number' type='tel' name='phone' value={form.phone} onChange={onPhoneChange} required/>
-                    <ContactInput placeholder='Enter Subject' type='text' name='subject' value={form.subject} onChange={onSubjectChange} required/>
-                    <ContactInputMessage placeholder="Message" name = "message" rows={4} value={form.message} onChange={onMessageChange}/>
+                    <ContactInput placeholder='Name' type='text' name='name' value={form.name} onChange={onNameChange} required/>
+                    <ContactInput placeholder="Email" type="email" name="email" value={form.email} onChange={onEmailChange} required/>
+                    <ContactInput placeholder='Contact Number' type='tel' name='phone' value={form.phone} onChange={onPhoneChange} required/>
+                    <ContactInput placeholder='Subject' type='text' name='subject' value={form.subject} onChange={onSubjectChange} required/>
+                    <ContactInputMessage placeholder="Message" name = "message" rows={5} value={form.message} onChange={onMessageChange}/>
                     <ContactButton type="submit" value="Send">Submit</ContactButton>
                 </ContactForm>
             </Wrapper>

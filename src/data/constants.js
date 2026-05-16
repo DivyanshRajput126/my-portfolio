@@ -8,13 +8,15 @@ import msu from '../images/msu-logo.jpg';
 import huggingface from '../images/huggingface.png';
 import langchain from '../images/langchain-logo.png';
 import torch from '../images/pytorch-logo.png';
-import pandasAi from '../images/pandas-ai.jpg';
+// import pandasAi from '../images/pandas-ai.jpg';
 import tensorflow from '../images/tensorflow-logo.jpg';
 import sklearn from '../images/sklearn-logo.png';
 import nltk from '../images/nltk-logo.png';
 import gensim from '../images/gensim-logo.jpg';
 import llama_index from '../images/llama-index.png';
-import scipy from '../images/scipy.jpg';
+import pp_logo from '../images/pp_logo.jpg';
+import HMS from '../images/hms.png';
+// import scipy from '../images/scipy.jpg';
 import pandas from '../images/pandas.png';
 import keras from '../images/keras.png';
 import seaborn from '../images/seaborn.svg';
@@ -32,21 +34,21 @@ import tailwind from '../images/tailwind.png';
 import express from '../images/expressjs.png';
 import node from '../images/nodejs.png';
 import mui from '../images/mui.png';
-import django from '../images/django.svg';
+// import django from '../images/django.svg';
 import mysql from '../images/mysql.svg';
 import mongo from '../images/mongo.png';
 import firebase from '../images/firebase.png';
-import flask from '../images/flask.png';
+// import flask from '../images/flask.png';
 import fastapi from '../images/fastapi.png';
 import wordpress from '../images/wordpress.png';
 import elementor from '../images/elementor.png';
 import woocommerce from '../images/woocommerce.png';
 import php from '../images/php.png';
 import java from '../images/java.png';
-import kotlin from '../images/kotlin.jpg';
-import xml from '../images/xml.png';
-import flutter from '../images/flutter.png';
-import reactNative from '../images/react-native.svg';
+// import kotlin from '../images/kotlin.jpg';
+// import xml from '../images/xml.png';
+// import flutter from '../images/flutter.png';
+// import reactNative from '../images/react-native.svg';
 import postman from '../images/postman.png';
 import git from '../images/git.png';
 import github from '../images/github.png';
@@ -54,9 +56,9 @@ import docker from '../images/docker.png';
 import kubernetes from '../images/kubernetes.png';
 import mlflow from '../images/mlflow.jpg';
 import python from '../images/python.png';
-import cpp from '../images/cpp.png';
-import c from '../images/c.png';
-import dart from '../images/dart.png';
+// import cpp from '../images/cpp.png';
+// import c from '../images/c.png';
+// import dart from '../images/dart.png';
 import ResearchPaper from '../images/ResearchPaper.png';
 import coldmail from '../images/cold-mail.png';
 import movie from '../images/movie.png';
@@ -67,21 +69,22 @@ import dwarkesh from '../images/dwarkesh.png';
 import twitter from '../images/twitter-sentiment.png';
 import potato from '../images/potato.jpg';
 import bharucha from '../images/bharucha.png';
+import resume from '../pdfs/DivyanshResume_Updated.pdf';
 
 export const Bio = {
   name: "Divyansh Rajput",
   roles: [
-    "AI/ML Engineer",
-    "GenAI Engineer",
-    "Data Scientist",
-    "Android Developer",
-    "Full Stack Developer",
+    "an AI/ML Engineer",
+    // "GenAI Engineer",
+    "a Data Scientist",
+    // "Android Developer",
+    // "Full Stack Developer",
   ],
   description:
-    "Passionate AI Engineer with expertise in Generative AI, NLP, and Deep Learning. Skilled in fine-tuning large language models (LLMs), optimizing transformer architectures, and deploying AI-driven applications. Career goal: To drive innovation in GenAI by developing efficient, scalable, and human-aligned AI solutions.",
+    "Passionate AI Engineer with expertise in Generative AI, NLP, Deep Learning, Machine Learning and Full Stack Development. Skilled in fine-tuning large language models (LLMs), RAG, AI Agent Development, optimizing transformer architectures, and deploying AI-driven applications. Career goal: To drive innovation in GenAI by developing efficient, scalable, and human-aligned AI solutions.",
   github: "https://github.com/DivyanshRajput126",
   resume:
-    "https://drive.google.com/file/d/1qA9x7SjhbYXWm58d0n5fFL8AIHoJqyde/view?usp=sharing",
+    resume,
   linkedin: "https://www.linkedin.com/in/divyansh-rajput-49198524a/",
   twitter: "https://x.com/Divyanshr126",
   instagram: "https://www.instagram.com/divyanshrajput_12_6/",
@@ -106,10 +109,10 @@ export const skills = [
         name: "PyTorch",
         image: torch
       },
-      {
-        name: "Pandas-AI",
-        image: pandasAi
-      },
+      // {
+      //   name: "Pandas-AI",
+      //   image: pandasAi
+      // },
       {
         name: "NLTK",
         image: nltk
@@ -122,10 +125,10 @@ export const skills = [
         name: "Keras",
         image: keras
       },
-      {
-        name: "Scipy",
-        image: scipy
-      },
+      // {
+      //   name: "Scipy",
+      //   image: scipy
+      // },
       {
         name: "Numpy",
         image: numpy
@@ -162,8 +165,6 @@ export const skills = [
         name: "LlamaIndex",
         image: llama_index
       },
-
-
     ],
   },
   {
@@ -185,10 +186,10 @@ export const skills = [
         name: "CSS",
         image: css
       },
-      {
-        name: "JavaScript",
-        image: js
-      },
+      // {
+      //   name: "JavaScript",
+      //   image: js
+      // },
       {
         name: "Bootstrap",
         image: bootstrap
@@ -213,10 +214,10 @@ export const skills = [
         name: "Express Js",
         image: express
       },
-      {
-        name: "Django",
-        image: django
-      },
+      // {
+      //   name: "Django",
+      //   image: django
+      // },
       {
         name: "MySQL",
         image: mysql
@@ -233,10 +234,10 @@ export const skills = [
         name: "Fast-API",
         image: fastapi
       },
-      {
-        name: "Flask",
-        image: flask
-      },
+      // {
+      //   name: "Flask",
+      //   image: flask
+      // },
       {
         name: "Wordpress",
         image: wordpress
@@ -251,31 +252,31 @@ export const skills = [
       }
     ],
   },
-  {
-    title: "App Development",
-    skills: [
-      {
-        name: "Java",
-        image: java
-      },
-      {
-        name: "Kotlin",
-        image: kotlin
-      },
-      {
-        name: "XML",
-        image: xml
-      },
-      {
-        name: "Flutter",
-        image: flutter
-      },
-      {
-        name: "React-Native",
-        image: reactNative
-      }
-    ],
-  },
+  // {
+  //   title: "App Development",
+  //   skills: [
+  //     {
+  //       name: "Java",
+  //       image: java
+  //     },
+  //     {
+  //       name: "Kotlin",
+  //       image: kotlin
+  //     },
+  //     {
+  //       name: "XML",
+  //       image: xml
+  //     },
+  //     // {
+  //     //   name: "Flutter",
+  //     //   image: flutter
+  //     // },
+  //     // {
+  //     //   name: "React-Native",
+  //     //   image: reactNative
+  //     // }
+  //   ],
+  // },
   {
     title: "Others",
     skills: [
@@ -320,26 +321,26 @@ export const skills = [
         name: "JavaScript",
         image: js
       },
-      {
-        name: "C",
-        image: c
-      },
-      {
-        name: "C++",
-        image: cpp
-      },
-      {
-        name: "PHP",
-        image: php
-      },
-      {
-        name: "Kotlin",
-        image: kotlin
-      },
-      {
-        name: "Dart",
-        image: dart
-      },
+      // {
+      //   name: "C",
+      //   image: c
+      // },
+      // {
+      //   name: "C++",
+      //   image: cpp
+      // },
+      // {
+      //   name: "PHP",
+      //   image: php
+      // },
+      // {
+      //   name: "Kotlin",
+      //   image: kotlin
+      // },
+      // {
+      //   name: "Dart",
+      //   image: dart
+      // },
       // {
       //   name: "RUST",
       //   image: rust
@@ -351,11 +352,11 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: dynamisity,
-    role: "GenAI Engineer",
-    company: "Dynamisity Pvt. Ltd.",
-    date: "January 2025 - Current",
-    desc: "Developed and deployed Sentiment Analysis Models, comparing Transformers and LLMs for text classification. Fine-tuned BERT, GPT-based models, and Llama Models optimizing performance through data preprocessing and evaluation metrics. Automated workflows, conducted exploratory data analysis, and leveraged Python, TensorFlow, and NLP techniques to derive actionable insights.",
+    img: pp_logo,
+    role: "Jr. AI Engineer",
+    company: "PathPresenter India Pvt. Ltd.",
+    date: "November 2025 - Current",
+    desc: "Developed and integrated AI-powered solutions into the IMS (Image Management System) platform to enhance workflow automation, intelligent data processing, and user experience within digital pathology applications. Collaborated with cross-functional teams to optimize AI model performance, streamline platform integration, and improve system reliability for clinical and ai workflows.",
     // skills: [
     //   "Machine Learning",
     //   "Natural Language Processing",
@@ -368,6 +369,23 @@ export const experiences = [
   },
   {
     id: 1,
+    img: dynamisity,
+    role: "GenAI Engineer",
+    company: "Dynamisity Pvt. Ltd.",
+    date: "January 2025 - May 2025",
+    desc: "Developed and deployed Sentiment Analysis Models, comparing Transformers and LLMs for text classification. Fine-tuned BERT, GPT-based models, and Llama Models optimizing performance through data preprocessing and evaluation metrics. Automated workflows, conducted exploratory data analysis, and leveraged Python, TensorFlow, and NLP techniques to derive actionable insights.",
+    // skills: [
+    //   "Machine Learning",
+    //   "Natural Language Processing",
+    //   "Data Analytics",
+    //   "Deep Learning",
+    //   "Dashboard Creation",
+    //   "Stremlit",
+    // ],
+    // doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
+  },
+  {
+    id: 2,
     img: infolabz,
     role: "Data Analysis With Machine Learning Intern",
     company: "Infolabz Pvt. Ltd.",
@@ -384,7 +402,7 @@ export const experiences = [
     // doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
-    id: 2,
+    id: 3,
     img: drashti,
     role: "Python Programming Intern",
     company: "Shree Drashti Infotech LLP.",
@@ -401,7 +419,7 @@ export const experiences = [
     // doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
   {
-    id: 3,
+    id: 4,
     img: acmegrade,
     role: "Data Science Intern",
     company: "Acmegrade Pvt. Ltd.",
@@ -422,7 +440,7 @@ export const experiences = [
     // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
   },
   {
-    id: 4,
+    id: 5,
     img: bws,
     role: "Full Stack Web Developer Intern",
     company: "Baroda Web Solution",
@@ -453,8 +471,8 @@ export const education = [
     img: gtu,
     school: "Gujarat Technological University",
     date: "August 2021 - Sep 2025",
-    grade: "8.36 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer  Engineering from Gujarat Technological University. I have completed 7 semesters and have a CGPA of 8.44. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, Artifical Intelligence, Web Programming, Mobile Application Development among others.",
+    grade: "8.67 CGPA",
+    desc: "I have completed my Bachelor's degree in Computer Engineering from Gujarat Technological University. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, Artifical Intelligence, Web Programming, Mobile Application Development among others.",
     degree: "Bachelor of Engineering - BE, Computer Engineering",
   },
   {
@@ -619,5 +637,17 @@ export const projects = [
     category: "research paper",
     github: "https://www.ijsrcseit.com/index.php/home/article/view/CSEIT25112825",
     webapp: "https://www.ijsrcseit.com/index.php/home/article/view/CSEIT25112825",
+  },
+  {
+    id: 10,
+    title: "Hotel Management System",
+    date: "Jan 2026 - May 2026",
+    description:
+      "Developed a Hotel Management System (HMS) to streamline hotel operations including room booking, customer management, check-in/check-out processes, and reservation handling through a centralized web-based platform. The system was built using a scalable full-stack architecture with secure authentication, responsive user interfaces, and efficient database management for real-time room availability and customer data tracking. Implemented backend APIs and automated workflows to enhance operational efficiency, improve booking management, and deliver a seamless user experience for both customers and hotel administrators.",
+    image: HMS,
+    tags: ["HMS", "Hotel Management System", "Application", "Website", "WebApp", "Custom Software"],
+    category: "web app",
+    github: "https://github.com/DivyanshRajput126/HMS",
+    webapp: "https://github.com/DivyanshRajput126/HMS",
   }
 ];

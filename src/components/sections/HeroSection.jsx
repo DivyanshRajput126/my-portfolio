@@ -2,7 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from 'typewriter-effect';
-import PortfolioImg from '../../images/PortfolioImg.jpg';
+// import PortfolioImg from '../../images/PortfolioImg.jpg';
+import SuitUpedImg from '../../images/suit-uped-img-1.jpg';
+// import SuitUpedImg from '../../images/IMG_9989.jpg';
 import {Tilt} from 'react-tilt';
 import {motion} from 'framer-motion';
 import {
@@ -90,7 +92,7 @@ const Title = styled.div`
 const TextLoop = styled.div`
   font-weight: 600;
   font-size: 32px;
-  display: flex;
+  display: flex;  
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
@@ -115,6 +117,7 @@ const SubTitle = styled.div`
   line-height: 32px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
+  text-align:justify;
 
   @media (max-width: 960px) {
     text-align: center;
@@ -225,7 +228,7 @@ const HeroSection = () => {
                                     {Bio.name}
                                 </Title>
                                 <TextLoop>
-                                    I am a
+                                    I am
                                     <Span>
                                         <Typewriter options={{strings:Bio.roles,autoStart:true,loop:true}}/>
                                     </Span>
@@ -240,7 +243,7 @@ const HeroSection = () => {
                         <RightContainer>
                             <motion.div {...headContentAnimation}>
                                 <Tilt>
-                                    <Img src={PortfolioImg} alt="Divyansh Rajput" loading="lazy"/>
+                                    <Img src={SuitUpedImg} alt="Divyansh Rajput" loading="lazy"/>
                                 </Tilt>
                             </motion.div>
                         </RightContainer>

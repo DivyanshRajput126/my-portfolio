@@ -104,7 +104,8 @@ padding: 12px 40px 24px 40px;
 position:absolute;
 top:80px;
 right:0; 
-background: ${({theme})=>theme.card_light+99};
+${'' /* background: ${({theme})=>theme.card_light+99}; */}
+background:#000;
 transition:all 0.6s ease-in-out;
 tranform:${({isOpen})=>isOpen?"translateY(0)":"translateY(-100%)"};
 border-radius:0 0 20px 20px;
@@ -121,7 +122,7 @@ const Navbar = () =>{
     return(
         <Nav>
             <NavbarContainer>
-                <NavLogo to="/">Divyansh  Rajput</NavLogo>
+                <NavLogo to="/">Divyansh  Rajput </NavLogo>
                 <MobileIcon onClick={() => setIsOpen(!isOpen)}>
                     <MenuRounded style={{color:"inherit"}}/>
                 </MobileIcon>

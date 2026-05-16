@@ -10,10 +10,14 @@ const Top = styled.div`
 `;
 const Image = styled.img`
   height: 50px;
+  width: 50px;
+  object-fit: contain;
+  background-color: #fff;
   border-radius: 10px;
   margin-top: 4px;
   @media only screen and (max-width: 768px) {
     height: 40px;
+    width: 40px;
   }
 `;
 const Body = styled.div`
@@ -51,6 +55,7 @@ const Description = styled.div`
   width: 100%;
   font-size: 15px;
   font-weight: 400;
+  text-align: justify;
   color: ${({ theme }) => theme.text_primary + 99};
   margin-bottom: 10px;
   @media only screen and (max-width: 768px) {
@@ -81,7 +86,7 @@ const EducationCard = ({education}) => {
                     width="100%"
                     height="100%"
                     alt={education?.school}
-                    style={{ borderRadius: "50%", objectFit: "cover" }}
+                    style={{ borderRadius: "50%", objectFit: "contain", background: "white" }}
                     src={education?.img}
                     loading='lazy'
                 />  
