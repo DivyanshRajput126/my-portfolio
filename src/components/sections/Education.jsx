@@ -60,8 +60,7 @@ const Education = () => {
             marginBottom: "40px",
           }}
         >
-          My education has been a journey of self-discovery and growth. My
-          educational details are as follows.
+          My academic journey has shaped my passion for technology, problem-solving, and Artificial Intelligence. Here is a look at my educational background and achievements.
         </Description>
 
         <VerticalTimeline>

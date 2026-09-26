@@ -3,6 +3,7 @@ import dynamisity from '../images/dynamisity_logo.jpg';
 import infolabz from '../images/infoloabz-logo.png';
 import bws from '../images/bws-logo.jpg';
 import acmegrade from '../images/acmegrade-logo.jpg';
+import uwl from '../images/uwl.png';
 import gtu from '../images/gtu-logo.jpg';
 import msu from '../images/msu-logo.jpg';
 import huggingface from '../images/huggingface.png';
@@ -61,6 +62,7 @@ import python from '../images/python.png';
 // import dart from '../images/dart.png';
 import ResearchPaper from '../images/ResearchPaper.png';
 import coldmail from '../images/cold-mail.png';
+import onconavigator from '../images/onconavigator.png';
 import movie from '../images/movie.png';
 import house from '../images/house.png';
 import car from '../images/car-price.png';
@@ -81,7 +83,7 @@ export const Bio = {
     // "Full Stack Developer",
   ],
   description:
-    "Passionate AI Engineer with expertise in Generative AI, NLP, Deep Learning, Machine Learning and Full Stack Development. Skilled in fine-tuning large language models (LLMs), RAG, AI Agent Development, optimizing transformer architectures, and deploying AI-driven applications. Career goal: To drive innovation in GenAI by developing efficient, scalable, and human-aligned AI solutions.",
+    "AI Engineer and MSc Artificial Intelligence student passionate about building intelligent, practical, and scalable AI solutions. Experienced in **Generative AI, LLMs, NLP, Deep Learning, Machine Learning, RAG, and AI Agent development**, with a strong foundation in full-stack development. I enjoy turning complex AI concepts into real-world applications and exploring emerging technologies to build impactful, efficient, and user-focused solutions.",
   github: "https://github.com/DivyanshRajput126",
   resume:
     resume,
@@ -89,8 +91,8 @@ export const Bio = {
   twitter: "https://x.com/Divyanshr126",
   instagram: "https://www.instagram.com/divyanshrajput_12_6/",
   email: "mailto:divyanshrajput126@gmail.com/",
-  phone: "tel:+919023848410",
-  whatsapp: "https://wa.me/+919023848410/"
+  phone: "tel:+447344837074",
+  whatsapp: "https://wa.me/+447344837074/"
 };
 
 export const skills = [
@@ -355,10 +357,10 @@ export const experiences = [
     img: pp_logo,
     role: "Jr. AI Engineer",
     company: "PathPresenter India Pvt. Ltd.",
-    date: "November 2025 - Current",
-    desc: "Developed and integrated AI-powered solutions into the IMS (Image Management System) platform to enhance workflow automation, intelligent data processing, and user experience within digital pathology applications. Collaborated with cross-functional teams to optimize AI model performance, streamline platform integration, and improve system reliability for clinical and ai workflows.",
+    date: "November 2025 - July 2026",
+    desc: "Developed and integrated AI/ML and Generative AI solutions into PathPresenter’s digital pathology platform, supporting intelligent image analysis, workflow automation, and clinical research applications. Worked on integrating and optimizing AI models within production workflows, collaborating with cross-functional teams to improve model performance, system reliability, and AI-driven user experiences.",
     // skills: [
-    //   "Machine Learning",
+    //   "Machine Learning",s
     //   "Natural Language Processing",
     //   "Data Analytics",
     //   "Deep Learning",
@@ -468,15 +470,24 @@ export const experiences = [
 export const education = [
   {
     id: 0,
+    img: uwl,
+    school: "University of West London",
+    date: "Sept 2026 - Current",
+    grade: "-",
+    desc: "I am currently pursuing a Master’s degree in Artificial Intelligence at the University of West London. My studies focus on Machine Learning, Deep Learning, Artificial Intelligence, Responsible AI, Computer Vision, Big Data Analytics, and Research Methods, with a strong emphasis on applying AI techniques to real-world problems.",
+    degree: "MSC - Artificial Intelligence",
+  },
+  {
+    id: 1,
     img: gtu,
     school: "Gujarat Technological University",
     date: "August 2021 - Sep 2025",
     grade: "8.67 CGPA",
     desc: "I have completed my Bachelor's degree in Computer Engineering from Gujarat Technological University. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, Artifical Intelligence, Web Programming, Mobile Application Development among others.",
-    degree: "Bachelor of Engineering - BE, Computer Engineering",
+    degree: "Bachelor of Engineering - Computer Engineering",
   },
   {
-    id: 1,
+    id: 2,
     img: msu,
     school: "M.S. University Experimental School",
     date: "Apr 2020 - Apr 2021",
@@ -485,7 +496,7 @@ export const education = [
     degree: "HSC(XII), PCM",
   },
   {
-    id: 2,
+    id: 3,
     img: msu,
     school: "M.S. Univeristy Experimental School",
     date: "Apr 2018 - Apr 2019",
@@ -498,6 +509,25 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "OncoNavigator-AI — AI-Powered Healthcare Intelligence Platform",
+    date: "August 2026 - Current",
+    description:
+      "Developed **OncoNavigator**, an AI-powered healthcare intelligence platform combining **deep learning, medical image analysis, and Generative AI**. Built CNN-based models for brain MRI tumor classification and image segmentation, and integrated a **Retrieval-Augmented Generation (RAG)** pipeline using **ChromaDB and Groq LLMs** for context-aware healthcare information retrieval. Designed the platform to demonstrate practical applications of AI in medical imaging and intelligent healthcare workflows.",
+    image: onconavigator,
+    tags: [
+      "Deep Learning",
+      "RAG",
+      "Computer Vision",
+      "Generative AI",
+      "Medical Imaging",
+      "Python",
+    ],
+    category: "artificial intelligence",
+    github: "https://github.com/DivyanshRajput126/OncoNavigator-AI",
+    webapp: "https://onconavigator-ai.netlify.app/",
+  },
+  {
+    id: 1,
     title: "Movie Recommendation System",
     date: "August 2024 - August 2024",
     description:
@@ -516,7 +546,7 @@ export const projects = [
     webapp: "https://movie-recommendation-system-divyansh.streamlit.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "House Price Prediction",
     date: "July 2024 - July 2024",
     description:
@@ -535,7 +565,7 @@ export const projects = [
     webapp: "https://house-price-prediction-1.streamlit.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Car Price Prediction",
     date: "Aprril 2024 - May 2024",
     description:
@@ -547,7 +577,7 @@ export const projects = [
     webapp: "https://github.com/DivyanshRajput126/UsedCarPricePrediction"
   },
   {
-    id: 3,
+    id: 4,
     title: "Dwarkesh Jewellers",
     date: "January 2024 - January 2024",
     description:
@@ -567,7 +597,7 @@ export const projects = [
     webapp: "#",
   },
   {
-    id: 4,
+    id: 5,
     title: "Job- Cold Email Generation",
     date: "Dec 2024 - Dec 2024",
     description:
@@ -579,7 +609,7 @@ export const projects = [
     webapp: "https://github.com/DivyanshRajput126/Job-Email-Generator",
   },
   {
-    id: 5,
+    id: 6,
     title: "Potato Disease Detection",
     date: "Dec 2024 - Dec 2024",
     description:
@@ -591,7 +621,7 @@ export const projects = [
     webapp: "https://potatodisease-deeplearning.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Irza Cab Service",
     date: "Sept 2023 - Oct 2023",
     description:
@@ -603,7 +633,7 @@ export const projects = [
     webapp: "https://irzacabservice.in/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Sentiment Analysis using Transformers Vs. LLM",
     date: "Mar 2025",
     description:
@@ -615,7 +645,7 @@ export const projects = [
     webapp: "#",
   },
   {
-    id: 8,
+    id: 9,
     title: "Bharuch Associates",
     date: "Apr 2025",
     description:
@@ -627,7 +657,7 @@ export const projects = [
     webapp: "https://bharuchaassociates.org/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Fraud Detection - A Hybrid ML Approach",
     date: "Sept 2023 - Oct 2023",
     description:
@@ -639,7 +669,7 @@ export const projects = [
     webapp: "https://www.ijsrcseit.com/index.php/home/article/view/CSEIT25112825",
   },
   {
-    id: 10,
+    id: 11,
     title: "Hotel Management System",
     date: "Jan 2026 - May 2026",
     description:
